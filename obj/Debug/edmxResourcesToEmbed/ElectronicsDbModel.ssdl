@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ElectronicsDbModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="tbl_OrderDetails">
+    <Key>
+      <PropertyRef Name="odid" />
+    </Key>
+    <Property Name="odid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_ID" Type="int" Nullable="false" />
+    <Property Name="od_date" Type="datetime" Nullable="false" />
+    <Property Name="od_totalbill" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Orders">
+    <Key>
+      <PropertyRef Name="oid" />
+    </Key>
+    <Property Name="oid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="odate" Type="date" Nullable="false" />
+    <Property Name="o_qty" Type="int" Nullable="false" />
+    <Property Name="unitprice" Type="int" Nullable="false" />
+    <Property Name="o_bill" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Product_ID" Type="int" Nullable="false" />
+    <Property Name="odid" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Product">
+    <Key>
+      <PropertyRef Name="Product_ID" />
+    </Key>
+    <Property Name="Product_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Product_Image" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Product_Cost" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Product_Description" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Product_CategoryID" Type="int" Nullable="false" />
+    <Property Name="User_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_Product_Category">
+    <Key>
+      <PropertyRef Name="Product_CategoryID" />
+    </Key>
+    <Property Name="Product_CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Product_CategoryName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_RoleName">
+    <Key>
+      <PropertyRef Name="Role_ID" />
+    </Key>
+    <Property Name="Role_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Role_Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbl_User">
+    <Key>
+      <PropertyRef Name="User_ID" />
+    </Key>
+    <Property Name="User_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="User_FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Phone" Type="varchar" MaxLength="13" />
+    <Property Name="User_Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Gender" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Password" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="AddedOn" Type="date" Nullable="false" />
+    <Property Name="User_Address" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Role_ID" Type="int" Nullable="false" />
+    <Property Name="User_Dob" Type="date" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'ElectronicsDb.dbo.ECOMMERCE_VIEW' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="ECOMMERCE_VIEW">
+    <Key>
+      <PropertyRef Name="User_ID" />
+      <PropertyRef Name="User_FirstName" />
+      <PropertyRef Name="User_LastName" />
+      <PropertyRef Name="User_Email" />
+      <PropertyRef Name="odid" />
+      <PropertyRef Name="od_date" />
+      <PropertyRef Name="Product_ID" />
+      <PropertyRef Name="Product_Name" />
+      <PropertyRef Name="unitprice" />
+      <PropertyRef Name="o_qty" />
+      <PropertyRef Name="o_bill" />
+      <PropertyRef Name="Product_CategoryName" />
+    </Key>
+    <Property Name="User_ID" Type="int" Nullable="false" />
+    <Property Name="User_FirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_LastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="User_Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="odid" Type="int" Nullable="false" />
+    <Property Name="od_date" Type="datetime" Nullable="false" />
+    <Property Name="Product_ID" Type="int" Nullable="false" />
+    <Property Name="Product_Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="unitprice" Type="int" Nullable="false" />
+    <Property Name="o_qty" Type="int" Nullable="false" />
+    <Property Name="o_bill" Type="decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="Product_CategoryName" Type="varchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_tbl_OrderDetails_tbl_User">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="1" />
+    <End Role="tbl_OrderDetails" Type="Self.tbl_OrderDetails" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="User_ID" />
+      </Principal>
+      <Dependent Role="tbl_OrderDetails">
+        <PropertyRef Name="User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Orders_tbl_OrderDetails">
+    <End Role="tbl_OrderDetails" Type="Self.tbl_OrderDetails" Multiplicity="1" />
+    <End Role="tbl_Orders" Type="Self.tbl_Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_OrderDetails">
+        <PropertyRef Name="odid" />
+      </Principal>
+      <Dependent Role="tbl_Orders">
+        <PropertyRef Name="odid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Orders_tbl_Product">
+    <End Role="tbl_Product" Type="Self.tbl_Product" Multiplicity="1" />
+    <End Role="tbl_Orders" Type="Self.tbl_Orders" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Product">
+        <PropertyRef Name="Product_ID" />
+      </Principal>
+      <Dependent Role="tbl_Orders">
+        <PropertyRef Name="Product_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Product_tbl_Product_Category">
+    <End Role="tbl_Product_Category" Type="Self.tbl_Product_Category" Multiplicity="1" />
+    <End Role="tbl_Product" Type="Self.tbl_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_Product_Category">
+        <PropertyRef Name="Product_CategoryID" />
+      </Principal>
+      <Dependent Role="tbl_Product">
+        <PropertyRef Name="Product_CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_Product_tbl_User">
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="1" />
+    <End Role="tbl_Product" Type="Self.tbl_Product" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_User">
+        <PropertyRef Name="User_ID" />
+      </Principal>
+      <Dependent Role="tbl_Product">
+        <PropertyRef Name="User_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tbl_User_tbl_RoleName">
+    <End Role="tbl_RoleName" Type="Self.tbl_RoleName" Multiplicity="1" />
+    <End Role="tbl_User" Type="Self.tbl_User" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbl_RoleName">
+        <PropertyRef Name="Role_ID" />
+      </Principal>
+      <Dependent Role="tbl_User">
+        <PropertyRef Name="Role_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ElectronicsDbModelStoreContainer">
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_OrderDetails" EntityType="Self.tbl_OrderDetails" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Orders" EntityType="Self.tbl_Orders" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Product" EntityType="Self.tbl_Product" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_Product_Category" EntityType="Self.tbl_Product_Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_RoleName" EntityType="Self.tbl_RoleName" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbl_User" EntityType="Self.tbl_User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ECOMMERCE_VIEW" EntityType="Self.ECOMMERCE_VIEW" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [ECOMMERCE_VIEW].[User_ID] AS [User_ID], 
+    [ECOMMERCE_VIEW].[User_FirstName] AS [User_FirstName], 
+    [ECOMMERCE_VIEW].[User_LastName] AS [User_LastName], 
+    [ECOMMERCE_VIEW].[User_Email] AS [User_Email], 
+    [ECOMMERCE_VIEW].[odid] AS [odid], 
+    [ECOMMERCE_VIEW].[od_date] AS [od_date], 
+    [ECOMMERCE_VIEW].[Product_ID] AS [Product_ID], 
+    [ECOMMERCE_VIEW].[Product_Name] AS [Product_Name], 
+    [ECOMMERCE_VIEW].[unitprice] AS [unitprice], 
+    [ECOMMERCE_VIEW].[o_qty] AS [o_qty], 
+    [ECOMMERCE_VIEW].[o_bill] AS [o_bill], 
+    [ECOMMERCE_VIEW].[Product_CategoryName] AS [Product_CategoryName]
+    FROM [dbo].[ECOMMERCE_VIEW] AS [ECOMMERCE_VIEW]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_tbl_OrderDetails_tbl_User" Association="Self.FK_tbl_OrderDetails_tbl_User">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_OrderDetails" EntitySet="tbl_OrderDetails" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Orders_tbl_OrderDetails" Association="Self.FK_tbl_Orders_tbl_OrderDetails">
+      <End Role="tbl_OrderDetails" EntitySet="tbl_OrderDetails" />
+      <End Role="tbl_Orders" EntitySet="tbl_Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Orders_tbl_Product" Association="Self.FK_tbl_Orders_tbl_Product">
+      <End Role="tbl_Product" EntitySet="tbl_Product" />
+      <End Role="tbl_Orders" EntitySet="tbl_Orders" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Product_tbl_Product_Category" Association="Self.FK_tbl_Product_tbl_Product_Category">
+      <End Role="tbl_Product_Category" EntitySet="tbl_Product_Category" />
+      <End Role="tbl_Product" EntitySet="tbl_Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_Product_tbl_User" Association="Self.FK_tbl_Product_tbl_User">
+      <End Role="tbl_User" EntitySet="tbl_User" />
+      <End Role="tbl_Product" EntitySet="tbl_Product" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tbl_User_tbl_RoleName" Association="Self.FK_tbl_User_tbl_RoleName">
+      <End Role="tbl_RoleName" EntitySet="tbl_RoleName" />
+      <End Role="tbl_User" EntitySet="tbl_User" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

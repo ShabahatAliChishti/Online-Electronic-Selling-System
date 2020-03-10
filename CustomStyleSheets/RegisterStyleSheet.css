@@ -1,0 +1,57 @@
+﻿body {
+    background-color:#f7f7f7;
+}
+#RegisterationFormLayout{
+
+    background-color:white;
+    padding:40px 50px;
+    margin-top:20px;
+}
+#RegisterationFormLayout #registerationform{
+    padding-top:0;
+    padding-left:40px;
+
+}
+#RegisterationFormLayout #registerationform h3{
+   padding-left:15px;
+    margin:0;
+    margin-bottom:20px;
+    font-size:20px;
+    font-weight:bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+#RegisterationFormLayout #registerationform input[type="text"],
+#RegisterationFormLayout #registerationform .input-group-addon
+{
+    background:none;
+    border:none;
+    outline:none;
+    border-bottom:1px solid #ddd;
+    box-shadow:none;
+
+}
+#RegisterationFormLayout #registerationform .input-group-addon
+{
+    padding:0;
+    padding-left:5px;
+}
+#RegisterationFormLayout #registerationform input[type="submit"]
+{
+
+    background-color:#273c75;
+    border-radius:50px;
+    height:40px;
+    width:100px;
+}
+#RegisterationFormLayout #registerationform input[type="submit"]:hover
+{
+
+    background-color:#192a56;
+   
+}
+#RegisterationFormLayout #registerationimage{
+    border-left:1px solid #ddd;
+
+}

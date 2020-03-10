@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewBag.Title = "Customer";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Customer</h2>
+@Html.Partial("_CustomerView")
+
+<br />
+<br />
+@{ 
+    Html.RenderPartial("_CustomerView");
+}

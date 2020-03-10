@@ -1,0 +1,104 @@
+E:\Electronics Selling System\Electronics Selling System\bin\ApplicationInsights.config
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\csc.exe
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\System.Collections.Immutable.dll
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\System.Reflection.Metadata.dll
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\vbc.exe
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\VBCSCompiler.exe
+E:\Electronics Selling System\Electronics Selling System\bin\roslyn\VBCSCompiler.exe.config
+E:\Electronics Selling System\Electronics Selling System\bin\Electronics Selling System.dll.config
+E:\Electronics Selling System\Electronics Selling System\bin\Electronics Selling System.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Electronics Selling System.pdb
+E:\Electronics Selling System\Electronics Selling System\bin\EntityFramework.dll
+E:\Electronics Selling System\Electronics Selling System\bin\EntityFramework.SqlServer.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.DependencyCollector.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.Web.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.WindowsServer.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.ApplicationInsights.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.Web.Infrastructure.dll
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Helpers.dll
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Mvc.dll
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Razor.dll
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Webpages.Deployment.dll
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Webpages.dll
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Webpages.Razor.dll
+E:\Electronics Selling System\Electronics Selling System\bin\EntityFramework.xml
+E:\Electronics Selling System\Electronics Selling System\bin\EntityFramework.SqlServer.xml
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.DependencyCollector.xml
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.Web.xml
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.AI.WindowsServer.xml
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.ApplicationInsights.xml
+E:\Electronics Selling System\Electronics Selling System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Razor.xml
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Webpages.xml
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Webpages.Deployment.xml
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Webpages.Razor.xml
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Helpers.xml
+E:\Electronics Selling System\Electronics Selling System\bin\System.Web.Mvc.xml
+E:\Electronics Selling System\Electronics Selling System\obj\Debug\Electronics Selling System.dll
+E:\Electronics Selling System\Electronics Selling System\obj\Debug\Electronics Selling System.pdb
+E:\Electronics Selling System\Electronics Selling System\obj\Debug\Electronics Selling System.csprojResolveAssemblyReference.cache
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\ApplicationInsights.config
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\csc.exe
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\vbc.exe
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\VBCSCompiler.exe
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Electronics Selling System.dll.config
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Electronics Selling System.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Electronics Selling System.pdb
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\EntityFramework.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\EntityFramework.SqlServer.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.Web.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Helpers.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Mvc.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Razor.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Webpages.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Webpages.Razor.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\EntityFramework.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\EntityFramework.SqlServer.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.Web.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Razor.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Webpages.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Webpages.Razor.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Helpers.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\System.Web.Mvc.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\obj\Debug\Electronics Selling System.csprojResolveAssemblyReference.cache
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\obj\Debug\Electronics Selling System.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\obj\Debug\Electronics Selling System.pdb
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Sakhi\Desktop\eLECTRONICS\Electronics Selling System\bin\Microsoft.AspNet.Identity.EntityFramework.xml
